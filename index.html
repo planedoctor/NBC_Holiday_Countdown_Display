@@ -1,0 +1,240 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NBC Holiday Countdown Display - User Guide</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      background: #f4f4f4;
+      color: #222;
+    }
+
+    header {
+      background: #202020;
+      color: white;
+      text-align: center;
+      padding: 25px 15px;
+    }
+
+    header h1 {
+      margin: 0;
+      color: #ffffff;
+    }
+
+    header p {
+      margin: 5px 0 0;
+      color: #cccccc;
+    }
+
+    main {
+      max-width: 850px;
+      margin: auto;
+      padding: 20px;
+      background: white;
+    }
+
+    nav {
+      background: #eeeeee;
+      padding: 15px;
+      border-radius: 8px;
+      margin-bottom: 25px;
+    }
+
+    nav h2 {
+      margin-top: 0;
+    }
+
+    nav a {
+      display: block;
+      padding: 5px 0;
+      color: #075da8;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      padding: 15px 0;
+      border-bottom: 1px solid #dddddd;
+    }
+
+    section h2 {
+      color: #222222;
+    }
+
+    .note {
+      background: #fff4d6;
+      padding: 12px;
+      border-left: 4px solid #e0a000;
+      border-radius: 4px;
+    }
+
+    .pdf-link {
+      display: inline-block;
+      margin: 20px 0;
+      padding: 12px 18px;
+      background: #075da8;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #666666;
+      font-size: 0.9em;
+    }
+
+    @media (max-width: 600px) {
+      main {
+        padding: 15px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>HomeHackery</h1>
+  <p>Because "Stock" is Boring.</p>
+  <h2>NBC Holiday Countdown Display</h2>
+  <p>Quick Setup &amp; User Guide</p>
+</header>
+
+<main>
+
+  <nav>
+    <h2>Quick Navigation</h2>
+    <a href="#power">1. Power Up Your Display</a>
+    <a href="#wifi">2. Connect to Wi-Fi</a>
+    <a href="#control">3. Open the Control Page</a>
+    <a href="#holiday">4. Select a Holiday</a>
+    <a href="#timezone">5. Set Your Time Zone</a>
+    <a href="#lighting">6. Customize Background Lighting</a>
+    <a href="#firmware">7. Firmware Updates</a>
+    <a href="#network">8. Changing Wi-Fi Networks</a>
+    <a href="#support">Project & Support</a>
+  </nav>
+
+  <!-- Guide sections will go here -->
+  
+  <section id="power">
+    <h2>1. Power Up Your Display</h2>
+    <p>Connect the USB power cable to the display and plug it into a USB power adapter.</p>
+    <p>The display will briefly flash when power is connected, then remains blank while it connects to Wi-Fi and obtains the current time.</p>
+    <p>Once the display has successfully connected to Wi-Fi and synchronized its time, the countdown will appear.</p>
+  </section>
+
+  <section id="wifi">
+    <h2>2. Connect the Display to Your Wi-Fi</h2>
+    <ol>
+      <li>On your phone, tablet, or computer, connect to the Wi-Fi called <strong>NBC-Countdown-Setup</strong> with Password: <strong>countdown123</strong>.</li>
+      <li>Your device may show "No Internet Connection." This is normal.</li>
+      <li>The NBC-Countdown-Setup page should open automatically. If it does not, open a web browser and go to <strong>192.168.4.1</strong>.</li>
+      <li>Select Configure Wi-Fi.</li>
+      <li>Select your home's 2.4 GHz Wi-Fi network from the list.</li>
+      <li>Enter your Wi-Fi password and select Save.</li>
+      <li>The display will connect to your Wi-Fi and synchronize its time.</li>
+      <li>Once connected, the countdown will appear on the display.</li>
+    </ol>
+  </section>
+
+  <section id="control">
+    <h2>3. Open the Display's Control Page</h2>
+    <p>Once the display is connected to your Wi-Fi, you can access its control page from any device connected to the same Wi-Fi network.</p>
+    <p>Open a web browser and enter:</p>
+    <p><a href="http://nbcholidaycountdown.local/">http://nbcholidaycountdown.local/</a></p>
+    <p>The NBC Holiday Countdown control page will open. From this page, you can view the display's status and change its settings.</p>
+  </section>
+
+  <section id="holiday">
+    <h2>4. Select Which Holiday is Displayed</h2>
+    <p>From the NBC Holiday Countdown control page, find <strong>Countdown Holiday</strong> and choose which holiday you want illuminated:</p>
+    <ul>
+      <li><strong>Halloween</strong> – Halloween countdown</li>
+      <li><strong>Christmas</strong> – Christmas countdown</li>
+    </ul>
+    <p>Select your preferred option.</p>
+  </section>
+
+  <section id="timezone">
+    <h2>5. Set Your Time Zone</h2>
+    <ol>
+      <li>On the control page, find <strong>Time Zone</strong>.</li>
+      <li>Select your local time zone from the list.</li>
+      <li>Select Save Settings.</li>
+    </ol>
+    <p>The display will use this time zone for its clock and countdown calculations.</p>
+  </section>
+
+  <section id="lighting">
+    <h2>6. Customize Background Lighting</h2>
+    <p>The Background Lighting controls let you customize the color and brightness of the LEDs behind the display.</p>
+    <ol>
+      <li>On the control page, find <strong>Background Lighting</strong>.</li>
+      <li>Select the color picker to open your device's color selection dialog, then choose your preferred color and confirm your selection.</li>
+      <li>Use the Brightness slider to adjust the LED brightness from 0% (off) to 100% (full brightness).</li>
+      <li>The background LEDs will preview your selected color and brightness.</li>
+      <li>Select Save Settings to save your color and brightness choices.</li>
+    </ol>
+  </section>
+
+  <section id="firmware">
+    <h2>7. Firmware Updates</h2>
+    <p>The latest firmware and project information are available on the HomeHackery GitHub project page.</p>
+    <p>If you experience a problem with the display, check the GitHub page for the latest information and available updates. Help is also available through the project information there.</p>
+    <p>Firmware update instructions are provided separately with each update.</p>
+  </section>
+
+  <section id="network">
+    <h2>8. Moving the Display or Changing Wi-Fi Networks</h2>
+    <p>If you move the display to a different location or change your home Wi-Fi network, the display will automatically enter Wi-Fi Setup Mode if it cannot connect to the saved network.</p>
+    <p>Simply repeat Step 2: Connect the Display to Your Wi-Fi and select your new Wi-Fi network.</p>
+    <p>Once the new Wi-Fi information has been saved, the display will automatically connect and resume normal operation.</p>
+    <div class="note">
+      <strong>Important:</strong> If Wi-Fi temporarily goes offline while the display is already running, the countdown will continue. If the display loses power while Wi-Fi is unavailable, the countdown will remain blank until Wi-Fi is restored and the display can synchronize its time.
+    </div>
+  </section>
+
+  <section id="support">
+    <h2>Project &amp; Support</h2>
+
+    <p>
+      <a href="https://github.com/planedoctor/NBC_Holiday_Countdown_Display">
+        HomeHackery GitHub Project
+      </a>
+    </p>
+
+    <p>
+      <a href="https://www.youtube.com/@TheHomeHackery">
+        HomeHackery on YouTube
+      </a>
+    </p>
+
+    <p>
+      Support: <a href="mailto:HomeHackery1@gmail.com">HomeHackery1@gmail.com</a>
+    </p>
+
+    <p><strong>Thank you for supporting HomeHackery!</strong></p>
+    <p><em>Because "Stock" is Boring.</em></p>
+  </section>
+
+
+</main>
+
+<footer>
+  <p>HomeHackery | NBC Holiday Countdown Display</p>
+</footer>
+
+</body>
+</html>
