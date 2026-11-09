@@ -4,6 +4,31 @@ This is the product page landing for the NBC Holiday Countdown display.
 
 This display was sold by Spirit Halloween and has been modified to have a digital display driven by a microcomputer.
 
+
+
+## Project Photos
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="images/20261109_161631.jpg" width="400" alt="NBC Holiday Countdown Display">
+    </td>
+    <td align="center">
+      <img src="images/20261109_155148.jpg" width="400" alt="NBC Holiday Countdown Display - Alternate View">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="images/20261109_161703.jpg" width="400" alt="NBC Holiday Countdown Display - Display Detail">
+    </td>
+    <td align="center">
+      <img src="images/20261109_162308.jpg" width="400" alt="NBC Holiday Countdown Display - Alternate Lighting">
+    </td>
+  </tr>
+</table>
+
+
+
 ## Features
 
 - **Automatic Holiday Countdown** – Displays the days remaining until Halloween or Christmas, automatically advancing to the next occurrence each year.
