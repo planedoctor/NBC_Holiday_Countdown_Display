@@ -1,31 +1,31 @@
-# NBC_Holiday_Countdown_Display
+<h1>
+  <img src="images/600x600_logo.png"
+       alt="HomeHackery logo"
+       width="100"
+       align="middle">
+  NBC Holiday Countdown Display
+</h1>
+
 
 This is the product page landing for the NBC Holiday Countdown display.
 
-This display was sold by Spirit Halloween and has been modified to have a digital display driven by a microcomputer.
+This display was sold by Spirit Halloween and has been modified to have a digital display driven by a microcomputer as well a custom RGB background lighting.
 
 
 
 ## Project Photos
 
-<table>
-  <tr>
-    <td align="center">
-      <img src="images/20261109_161631.jpg" width="400" alt="NBC Holiday Countdown Display">
-    </td>
-    <td align="center">
-      <img src="images/20261109_155148.jpg" width="400" alt="NBC Holiday Countdown Display - Alternate View">
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <img src="images/20261109_161703.jpg" width="400" alt="NBC Holiday Countdown Display - Display Detail">
-    </td>
-    <td align="center">
-      <img src="images/20261109_162308.jpg" width="400" alt="NBC Holiday Countdown Display - Alternate Lighting">
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="images/20261109_161631.jpg" alt="NBC Holiday Countdown Display" width="400">
+  &nbsp;&nbsp;
+  <img src="images/20261109_155148.jpg" alt="NBC Holiday Countdown Display - Alternate View" width="400">
+</p>
+
+<p align="center">
+  <img src="images/20261109_161703.jpg" alt="NBC Holiday Countdown Display - Display Detail" width="400">
+  &nbsp;&nbsp;
+  <img src="images/20261109_162308.jpg" alt="NBC Holiday Countdown Display - Alternate Lighting" width="400">
+</p>
 
 
 
@@ -58,3 +58,11 @@ Have a question or encountered a problem?
 Contact HomeHackery at [HomeHackery1@gmail.com](mailto:HomeHackery1@gmail.com).
 
 We're happy to help!
+
+---
+
+<p align="center">
+  <strong>HomeHackery</strong><br>
+  <em>Because "Stock" is Boring.</em><br>
+  <a href="https://www.youtube.com/@TheHomeHackery">HomeHackery on YouTube</a>
+</p>
